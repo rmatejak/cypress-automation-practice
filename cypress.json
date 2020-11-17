@@ -1,0 +1,11 @@
+{
+"baseUrl": "http://webdriveruniversity.com/",
+  "viewportWidth": 2560,
+  "viewportHeight": 1440,
+  "experimentalSourceRewriting": true,
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 1000,
+  "pageLoadTimeout": 30000,
+  "videosFolder": "cypress/videos/testExecutionVideos",
+  "retries": 2
+}
