@@ -1,0 +1,5 @@
+{
+    "success_message": " Newsletter : You have successfully subscribed to this newsletter.",
+    "invalid_message": " Newsletter : Invalid email address.",
+    "used_email_message": " Newsletter : This email address is already registered."
+}

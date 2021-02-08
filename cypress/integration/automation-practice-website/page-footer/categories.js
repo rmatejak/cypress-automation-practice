@@ -9,7 +9,6 @@ describe("Test categories in footer", function () {
 
     it("Check categories column", function () {
         cy.contains('Categories').should('have.text', 'Categories')
-        
     })
 
     it("Click on Women should redirect the user to the category of women", function () {

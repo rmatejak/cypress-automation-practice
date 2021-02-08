@@ -1,0 +1,7 @@
+{
+    "incorrectEmail": [
+        "123qwe",
+        "123qwe@@gmail.com",
+        ",./-@gmail.com"
+    ]
+}
