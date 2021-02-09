@@ -7,12 +7,12 @@ describe("Test categories in footer", function () {
         homepage_PO.visitHomepage()
     })
 
-    it("Check categories column", function () {
-        cy.contains('Categories').should('have.text', 'Categories')
+    it("Check categories column", () => {
+        homepage_PO.checkCategoriesHeader().should('have.text', 'Categories')
     })
 
-    it("Click on Women should redirect the user to the category of women", function () {
-        cy.get('a[href*=category]').contains('Women').click()
+    it("Click on Women should redirect the user to the category of women", () => {
+        homepage_PO.womenButton().click()
         cy.url().should('include', 'id_category=3')
     })
 }) 
